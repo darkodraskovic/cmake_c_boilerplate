@@ -1,12 +1,30 @@
 # Minimal cmake C boilerplate
 
-## Build
-`mkdir` `build` folder. `cd` into `build` folder and run
+## Configure && build
+
+Create `build` directory in the root directory, `cd` to `build` directory and run
 
 ```
 cmake ..
+```
+
+Staying in `build` directory, type
+
+```
 make
 ```
+
+to compile and run the program.
+
+## Run
+
+Create `bin` directory in the root directory. `cd` to `bin/` and run
+
+```
+./main
+```
+
+to run the program.
 
 ## clangd
 
@@ -17,7 +35,3 @@ Install [clangd](https://clangd.llvm.org/installation.html).
 ```
 ln -s build/compile_commands.json .
 ```
-
-## Run
-
-From the root project directory `cd bin` and run `main`.
