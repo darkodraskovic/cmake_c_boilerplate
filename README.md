@@ -2,26 +2,18 @@
 
 ## Configure && build
 
-Create `build` directory in the root directory, `cd` to `build` directory and run
+Create `build` directory in the root directory.
 
 ```
-cmake ..
+cd build/ && cmake ..
 ```
-
-Staying in `build` directory, type
-
-```
-make
-```
-
-to compile and run the program.
 
 ## Run
 
-Create `bin` directory in the root directory. `cd` to `bin/` and run
+Create `bin` directory in the root directory.
 
 ```
-./main
+cd build/ && make && cd ../bin && ./main
 ```
 
 to run the program.
