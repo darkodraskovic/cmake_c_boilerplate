@@ -1,22 +1,8 @@
 # Minimal cmake C boilerplate
 
-## Configure && build
+## Build
 
-Create `build` directory in the root directory.
-
-```
-cd build/ && cmake ..
-```
-
-## Run
-
-Create `bin` directory in the root directory.
-
-```
-cd build/ && make && cd ../bin && ./main
-```
-
-to run the program.
+Create `build` and `bin` directory in the root directory. Run `build.sh` to configure build and build and execute tests and main program.
 
 ## clangd
 
